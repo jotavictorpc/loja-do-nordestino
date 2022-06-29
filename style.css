@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #BCBABA 5.65%, rgba(217, 217, 217, 0) 155%);
+    width: 100vw;
 }
 
 .header img {
@@ -280,7 +281,7 @@ a:hover {
 
     .card-camisa-polo-imagem img {
         width: 100%;
-        max-width: 700px;
+        max-width: 600px;
         min-width: 400px;
         display: block;
         margin: auto;
