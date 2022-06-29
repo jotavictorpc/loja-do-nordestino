@@ -281,8 +281,8 @@ a:hover {
 
     .card-camisa-polo-imagem img {
         width: 100%;
-        max-width: 600px;
-        min-width: 400px;
+        max-width: 400px;
+        min-width: 200px;
         display: block;
         margin: auto;
     }
