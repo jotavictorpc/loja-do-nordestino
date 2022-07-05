@@ -7,8 +7,17 @@
     <title>Loja do nordestino</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--CSS librarieis -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!--End CSS librarieis-->
+
+    <!--CSS local-->
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+
 <body>
     <header>
         <div class="header">
@@ -49,10 +58,12 @@
           <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="titulo-bone titulo">
+
+
+    <div class="titulo-bone titulo" data-aos="fade-right">
       <h2>Bonés Sacudidos</h2>
     </div>
-    <main class="card-me containerr">
+    <main class="card-me containerr" data-aos="fade-right">
       <article class="card">
           <img src="imagens/bone-vete.jpeg" alt="Boné Sacudidos - Veterinaria" class="card__img">
           <div class="card__data">
@@ -86,10 +97,12 @@
           </div>
       </article>
     </main>
-    <div class="titulo-polo titulo">
+
+
+    <div class="titulo-polo titulo" data-aos="fade-down">
       <h2>Camisas polos</h2>
     </div>
-    <section class="card-camisa-polo containerr">
+    <section class="card-camisa-polo containerr" data-aos="fade-down">
       <div class="card-camisa-polo-imagem">
         <img src="imagens/camisa-polo-verm.jpeg" alt="Camisa polo vermelha">
       </div>
@@ -111,10 +124,12 @@
         <img src="imagens/camisa-polo-verde.jpeg" alt="Camisa polo verde">
       </div>
     </section>
-    <div class="titulo-estampadas titulo">
+
+
+    <div class="titulo-estampadas titulo" data-aos="fade-down">
       <h2>Camisas estampadas</h2>
     </div>
-    <section class="card-camisa-estampada containerr">
+    <section class="card-camisa-estampada containerr" data-aos="fade-down">
       <div class="card-camisa-estampada-itens">
         <img src="imagens/camisa-branca-estamp-tomar-uma.jpeg" alt="Camisa estampada SCD">
       </div>
@@ -125,9 +140,11 @@
         <img src="imagens/camisa-vaquejada-branca.jpeg" alt="Camisa estampada SCD - Vaquejada">
       </div>  
     </section>
-    <div class="card-especial-secao-estampada">
+    <div class="card-especial-secao-estampada" data-aos="fade-down">
       <img src="imagens/camisa-estamp-cavalo.jpeg" alt="Camisa estampada SCD - Preta/Cavalo">
     </div>
+
+
     <div class="titulo-sobre titulo">
       <h2>Sobre nós</h2>
     </div>
@@ -172,7 +189,13 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-
     </script>
+
+    <!--JS for Animation-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
