@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
 :root {
   --fonte-header:'Merriweather', serif;
   --fonte-titulo:'Roboto', sans-serif;
+  --font-titulo2:'Aladin', cursive, serif;
 }
 
 * {
@@ -29,8 +31,16 @@
 
 .header h1 {
   padding: 5px;
-  font-family: var(--fonte-header);
+  font-family: var(--font-titulo2);
   font-weight: 600;
+}
+
+.header h1::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100px;
+  background-color: #09a109;
 }
 
 .header img {
@@ -49,7 +59,7 @@
   content: "";
   width: 100px;
   height: 3px;
-  background-color: gray;
+  background-color: green;
 }
 
 .titulo-bone {
@@ -164,8 +174,16 @@
   transition: 1s ease-in-out;
 }
 
+.card-camisa-polo button a {
+  color: black;
+}
+
 .card-camisa-polo button:hover {
   background-color: gray;
+  color: white;
+}
+
+.card-camisa-polo button:hover a {
   color: white;
 }
 
@@ -173,6 +191,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card-camisa-polo .botao a {
+  text-decoration: none;
 }
 
 /*Camisas estampadas secao*/
