@@ -1,0 +1,47 @@
+/*MEDIA QUEIRE - RESPONSIVIDADE*/
+@media (max-width: 1190px) {
+    .card-camisa-polo {
+      grid-template-columns: 1fr;
+    }
+    .card-camisa-polo-imagem img {
+      width: 100%;
+      max-width: 400px;
+      min-width: 200px;
+      display: block;
+      margin: auto;
+    }
+    .card-camisa-polo-descri {
+      display: none;
+    }
+}
+  
+  @media (max-width: 1340px) {
+    .card-camisa-estampada {
+      grid-template-columns: 1fr;
+    }
+    .card-camisa-estampada-itens img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: auto;
+    }
+}
+  
+  @media (max-width: 1100px) {
+    .footer__itens:nth-child(n + 2) {
+      margin: 20px auto 0 auto;
+    }
+    .footer__itens {
+      width: 100%;
+      max-width: 400px;
+      min-width: 300px;
+    }
+}
+  
+  @media (max-width: 395px) {
+    .header img {
+      display: block;
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+}

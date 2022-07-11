@@ -1,0 +1,45 @@
+.titulo-polo {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+  .card-camisa-polo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #BCBABA;
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+  
+  .card-camisa-polo-descri {
+    max-width: 400px;
+  }
+  
+  .card-camisa-polo {
+      img {
+          width: 572px;
+          height: 670px;
+          border-radius: 10px;
+      }
+  
+      button {
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+          box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.392);
+          transition: 1s ease-in-out;
+      }
+  
+      button:hover {
+          background-color: gray;
+          color: white;
+      }
+  
+      .botao {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+  }
+  

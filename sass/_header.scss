@@ -1,0 +1,22 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #BCBABA 5.65%, rgba(217, 217, 217, 0) 155%);
+    width: 100vw;
+    h1 {
+        padding: 5px;
+        font-family: var(--fonte-header);
+        font-weight: 600;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        margin-right: 15px;
+    }
+}

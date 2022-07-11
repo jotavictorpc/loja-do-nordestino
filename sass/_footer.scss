@@ -1,0 +1,50 @@
+
+/* SOBRE NÓS SECAO*/
+.titulo-sobre {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 500px;
+
+    img {
+        width: 40px;
+        height: 40px;
+        margin-right: 40px;
+    }
+}
+  
+
+.footer__itens {
+    width: 335px;
+    height: 367px;
+    background-color: rgba(128, 128, 128, 0.41);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+
+    h3 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: var(--fonte-titulo);
+    }
+}
+
+  
+.footer__itens + .footer__itens {
+    margin-left: 20px;
+}
+  
+.footer__itens__tags + .footer__itens__tags {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 58px;
+    align-items: center;
+}
