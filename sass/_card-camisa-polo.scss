@@ -3,7 +3,7 @@
     margin-bottom: 35px;
 }
   
-  .card-camisa-polo {
+.card-camisa-polo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -12,9 +12,11 @@
     border-radius: 10px;
 }
   
-  .card-camisa-polo-descri {
-    max-width: 400px;
+.card-camisa-polo-descri {
+  max-width: 400px;
 }
+
+
   
 .card-camisa-polo {
       img {
